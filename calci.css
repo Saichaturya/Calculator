@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 3px 17px
+}
+
+.image {
+    height: 100px;
+    width: 150px;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.buttons>div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.button1 {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #40ff00;
+}
+
+#clear {
+    color: white;
+    background-color: black;
+}
+
+.color {
+    color: #FB6700;
+    font-weight: bold;
+}
+
+
+#equal {
+    background-color: #40ff00;
+    color: black;
+}
+
+.button:hover {
+    background-color: #F0E9E5;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
